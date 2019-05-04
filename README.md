@@ -1,32 +1,31 @@
 # wp-mysql-phpmyadmin-docker
 a very primitive docker-compose.yml file to help me develop wordpress sites on wordpress 
 
-You just copy the file.
-Create project folder
-INSIDE PROJECT FOLDER create folder named code(Otherwise change the folder name inside the docker-compose file)
-in your terminal navigate to your project folder
-run -> docker-compose up -d
-chown -R USER:GROUP code/
-And then you can move your files into the wordpress dir
-
-To stop the containers
-docker-compose down
-
-To remove the containers
-docker-compose down --volumes
-
-If you change something
-docker-compose up -d --build
-
-To check the logs
-docker-compose logs -f
-
-http://localhost:8000 <--your wordpress
-http://localhost:9191 <--phpmyadmin to manipulate your databases
-
-phpmyadmin details:
+Create project folder wherever you want.</br>
+INSIDE PROJECT FOLDER create folder named code where your actual wordpress code will be held and clone the docker-compose.yml file, best to git clone it otherwise watch the spaces.(Otherwise change the folder name inside the docker-compose file)</br>
+in your terminal navigate to your project folder</br>
+run -> docker-compose up -d</br>
+chown -R USER:GROUP code/</br>
+And then you can move your files into the wordpress dir</br>
+</br>
+To stop the containers</br>
+docker-compose down</br>
+</br>
+To remove the containers</br>
+docker-compose down --volumes</br>
+</br>
+If you change something</br>
+docker-compose up -d --build</br>
+</br>
+To check the logs</br>
+docker-compose logs -f</br>
+</br>
+http://localhost:8000 <--your wordpress</br>
+http://localhost:9191 <--phpmyadmin to manipulate your databases</br>
+</br>
+phpmyadmin details:</br>
 root
-somewordpress
-
-wordpress
-wordpress
+somewordpress</br>
+</br>
+wordpress</br>
+wordpress</br>
